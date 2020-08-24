@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-set -eoux pipefail
-
-FILENAME="swiftmailer-dev-${BUILDKITE_BRANCH}+${BUILDKITE_BUILD_NUMBER}.tar.gz"
-
-tar -czvf "./${FILENAME}" ./*

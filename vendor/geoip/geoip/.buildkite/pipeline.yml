@@ -1,7 +1,0 @@
-env:
-  CI_PROJECT: PARDOT
-  CI_PLAN: GEOIP
-
-steps:
-  - label: ":php: Test"
-    command: "/bin/bash script/cibuild"
