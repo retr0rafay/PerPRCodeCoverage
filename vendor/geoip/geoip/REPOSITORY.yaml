@@ -1,0 +1,4 @@
+---
+requiredTestingStatuses:
+- buildkite/geoip-api-php
+

@@ -1,0 +1,11 @@
+{
+  "name": "pardot/protobufsv3",
+  "type": "library",
+  "description": "Pardot's protobuf generated PHP classes using protoc",
+  "version": "3.30",
+  "autoload": {
+    "psr-4": {
+      "ProtocolBuffers\\": "ProtocolBuffers/"
+    }
+  }
+}

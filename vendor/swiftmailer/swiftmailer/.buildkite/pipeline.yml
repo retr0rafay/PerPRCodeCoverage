@@ -1,0 +1,13 @@
+env:
+  CI_PLAN: SWIFTMAILER
+  CI_PROJECT: PDT
+
+steps:
+  - label: "Deploy"
+    command: script/deploy
+    branches: "pardot-swift-5.0.3"
+    plugins:
+      - "ssh://git@git.dev.pardot.com/Pardot/pardot-buildkite-plugin.git":
+          upload:
+            local: "swiftmailer-dev-*.tar.gz"
+            remote: "pd-composer-local/swiftmailer/swiftmailer/"

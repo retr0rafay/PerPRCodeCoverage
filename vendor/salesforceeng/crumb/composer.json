@@ -1,0 +1,27 @@
+{
+    "name":"salesforceeng/crumb",
+    "type":"library",
+    "description":"A cookie manager (including signing functionality)",
+    "keywords":["cookie", "signature", "manager"],
+    "homepage":"https://git.dev.pardot.com/pardot/crumb.git",
+    "license":"BSD-3 Clause",
+    "authors":[
+        {
+            "name":"Chris Cornutt",
+            "email":"ccornutt@salesforce.com"
+        }
+    ],
+    "require":{
+        "php":">=5.4.0",
+        "paragonie/random_compat": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.1.4",
+        "mockery/mockery": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SalesforceEng\\Crumb\\": "src/"
+        }
+    }
+}
