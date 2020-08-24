@@ -7,3 +7,9 @@
         </testsuite>
     </testsuites>
 </phpunit>
+
+<filter>
+<whitelist processUncoveredFilesFromWhitelist="false" addUncoveredFilesFromWhitelist="false">
+    <file>./tests/test.php</file>
+</whitelist>
+</filter>
